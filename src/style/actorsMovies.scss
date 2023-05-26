@@ -1,0 +1,16 @@
+#actorsMovies{
+  .actorsMovies{
+    display: flex;
+    overflow-x: auto;
+    &--card{
+      img{
+        width: 150px;
+        height: 250px;
+        margin: 40px 15px 0 0;
+      }
+      h1{
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#actor{
+  padding: 80px 0;
+  h1{
+    margin-bottom: 40px;
+  }
+  .actor{
+    //display: flex;
+    //overflow-x: auto;
+    //align-items: flex-start;
+    &--card{
+      //text-align: center;
+      // margin: 20px 40px 20px 0;
+    }
+  }
+}

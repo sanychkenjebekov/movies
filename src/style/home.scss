@@ -1,0 +1,43 @@
+#home{
+  background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../img/hero.jpg") no-repeat center;
+  .home{
+    color: white;
+    text-align: center;
+    padding: 150px 0 200px;
+    width: 90%;
+    margin: 0 auto;
+    h1{
+      font-size: 48px;
+    }
+    .p{
+      padding: 15px 0;
+    }
+    p{
+      font-size: 22px;
+      font-weight: 500;
+    }
+    &--btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 50px;
+      button{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        background: red;
+        padding: 15px 50px;
+        border-radius: 7px;
+      }
+      input{
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.89);
+        padding: 15px 80px 15px 20px;
+        border-radius: 7px;
+      }
+    }
+  }
+}
